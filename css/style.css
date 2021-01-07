@@ -17,6 +17,10 @@ article {
     justify-content: center;
 }
 
+article .inner > *:last-child {
+    margin-bottom: 0;
+}
+
 main {
     padding: 20px;
 }
